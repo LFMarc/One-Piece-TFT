@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3276db96ff4c2949af18cb434444066, type: 3}
+  m_Name: Tashigi_SO
+  m_EditorClassIdentifier: 
+  characterName: Tashigi
+  characterIcon: {fileID: 21300000, guid: c964cf0cd4ce13549b7cebc1d535d031, type: 3}
+  maxHp: 1400
+  dmg: 150
+  attackSpeed: 1.1
+  abilityCharge: 0
+  abilityThreshold: 0
+  characterPrefab: {fileID: 4864333586370451661, guid: d5d913f00cf941e41a87e3f9425106db, type: 3}
+  spellPrefab: {fileID: 0}
+  spellSound: {fileID: 0}
+  attackSounds:
+  - {fileID: 8300000, guid: 194870b0958429b4f806207a48b8dacc, type: 3}
+  - {fileID: 8300000, guid: 35f7c69b7c60eef4b8d6b0c771d81c98, type: 3}
+  synergies: 0100000005000000

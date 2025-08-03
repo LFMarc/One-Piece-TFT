@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3276db96ff4c2949af18cb434444066, type: 3}
+  m_Name: Zoro_SO
+  m_EditorClassIdentifier: 
+  characterName: Zoro
+  characterIcon: {fileID: 21300000, guid: 566150d859e2d544296192a2d88acf09, type: 3}
+  maxHp: 1600
+  dmg: 170
+  attackSpeed: 1
+  abilityCharge: 0
+  abilityThreshold: 0
+  characterPrefab: {fileID: 706294685035649599, guid: 1db9e83e36fe23b4699077f84b2796aa, type: 3}
+  spellPrefab: {fileID: 0}
+  spellSound: {fileID: 0}
+  attackSounds:
+  - {fileID: 8300000, guid: 35f7c69b7c60eef4b8d6b0c771d81c98, type: 3}
+  - {fileID: 8300000, guid: 194870b0958429b4f806207a48b8dacc, type: 3}
+  synergies: 0000000005000000

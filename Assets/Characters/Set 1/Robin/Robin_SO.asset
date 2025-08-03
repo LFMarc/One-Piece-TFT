@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3276db96ff4c2949af18cb434444066, type: 3}
+  m_Name: Robin_SO
+  m_EditorClassIdentifier: 
+  characterName: Robin
+  characterIcon: {fileID: 21300000, guid: 73f7eb8cab39e274dbdbba7cc3d8a1d5, type: 3}
+  maxHp: 1300
+  dmg: 140
+  attackSpeed: 1.2
+  abilityCharge: 0
+  abilityThreshold: 0
+  characterPrefab: {fileID: 1240085621002534210, guid: 845b4487aa02e634c95f9ead7e2ec0ed, type: 3}
+  spellPrefab: {fileID: 0}
+  spellSound: {fileID: 0}
+  attackSounds:
+  - {fileID: 8300000, guid: ea23f20738c376543be134e0575dbefd, type: 3}
+  - {fileID: 8300000, guid: af8ec0afc79ea1b4e9138dbff9903cc8, type: 3}
+  synergies: 0000000008000000
