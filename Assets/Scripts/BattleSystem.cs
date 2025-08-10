@@ -21,13 +21,12 @@ public class BattleSystem : MonoBehaviour
     void Start()
     {
         charAnim = GetComponent<Animator>();
-        audioSource = GetComponent<AudioSource>();  // Obtener el AudioSource del personaje
+        audioSource = GetComponent<AudioSource>();
         startingPosition = transform.position;
+
         attackTimers = new Dictionary<EnemyScript, float>();
         enemies = new List<EnemyScript>();
-        EnemyScript[] targetsFound = FindObjectsOfType<EnemyScript>();
-        enemies.AddRange(targetsFound);
-        ResetAttackTimers();
+        attackCd = Time.time;
     }
 
     void Update()
@@ -38,45 +37,46 @@ public class BattleSystem : MonoBehaviour
             return;
         }
 
-        // Mira si hay enemigos
-        if (enemies.Count > 0)
+        if (!GameManager.Instance || !GameManager.Instance.IsCombatPhase())
         {
-            // Comprueba el temporizador de ataque
-            if (Time.time - attackCd >= character.attackSpeed)
+            return; // Solo atacar en fase de combate
+        }
+
+        CleanEnemyList();
+        if (enemies.Count == 0)
+        {
+            TryFindEnemies();
+            return;
+        }
+
+        if (Time.time - attackCd >= character.attackSpeed)
+        {
+            EnemyScript enemyTarget = enemies[enemyIndexNow];
+
+            if (enemyTarget != null && enemyTarget.hp > 0)
             {
-                // Obtener el enemigo actual
-                EnemyScript enemyTarget = enemies[enemyIndexNow];
+                charAnim.SetTrigger("Attack");
+                StartCoroutine(MoverHaciaEnemigo(enemyTarget.transform.position));
 
-                // Verificar si el enemigo actual está vivo
-                if (enemyTarget.hp > 0)
-                {
-                    // Ataque
-                    charAnim.SetTrigger("Attack");
+                enemyTarget.RecieveDamage(character.dmg);
 
-                    StartCoroutine(MoverHaciaEnemigo(enemyTarget.transform.position));
-                    enemyTarget.RecieveDamage(character.dmg);
+                if (DamageMeterManager.Instance != null)
+                    DamageMeterManager.Instance.ReportDamage(transform.root.gameObject, character.dmg);
 
-                    // Reiniciar el temporizador de ataque solo si el enemigo actual está vivo
-                    attackCd = Time.time;
-                }
-                else
-                {
-                    // Si el enemigo actual está muerto, buscar el próximo enemigo vivo como objetivo
-                    BuscarSiguienteEnemigoVivo();
-                }
+                attackCd = Time.time;
+            }
+            else
+            {
+                BuscarSiguienteEnemigoVivo();
             }
         }
     }
 
-    // Función para alternar y reproducir los sonidos de ataque
     void PlayAttackSound()
     {
         if (character.attackSounds != null && character.attackSounds.Length > 0 && audioSource != null)
         {
-            // Alterna entre los sonidos de ataque
             audioSource.PlayOneShot(character.attackSounds[attackSoundIndex]);
-
-            // Cambiar al siguiente sonido de ataque (alternar entre ellos)
             attackSoundIndex = (attackSoundIndex + 1) % character.attackSounds.Length;
         }
     }
@@ -84,7 +84,6 @@ public class BattleSystem : MonoBehaviour
     void BuscarSiguienteEnemigoVivo()
     {
         enemyIndexNow++;
-
         if (enemyIndexNow >= enemies.Count)
         {
             enemyIndexNow = 0;
@@ -93,6 +92,13 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator MoverHaciaEnemigo(Vector3 enemyPosition)
     {
+        // Si la velocidad es 0, dispara desde lejos sin moverse
+        if (movSpeed <= 0f)
+        {
+            PlayAttackSound();
+            yield break;
+        }
+
         Vector3 direccion = (enemyPosition - transform.position).normalized;
         float distancia = Vector3.Distance(transform.position, enemyPosition);
 
@@ -103,8 +109,7 @@ public class BattleSystem : MonoBehaviour
             yield return null;
         }
 
-        PlayAttackSound();  // Reproducir el sonido de ataque aquí
-
+        PlayAttackSound();
         StartCoroutine(TpBack());
     }
 
@@ -114,15 +119,28 @@ public class BattleSystem : MonoBehaviour
         transform.position = startingPosition;
     }
 
+    void TryFindEnemies()
+    {
+        EnemyScript[] targetsFound = FindObjectsOfType<EnemyScript>();
+        enemies.Clear();
+        enemies.AddRange(targetsFound);
+        ResetAttackTimers();
+        enemyIndexNow = 0;
+    }
+
+    void CleanEnemyList()
+    {
+        enemies.RemoveAll(e => e == null || e.hp <= 0);
+    }
+
     void ResetAttackTimers()
     {
-        // Reiniciar el temporizador de ataque para cada enemigo
+        attackTimers.Clear();
         foreach (EnemyScript enemy in enemies)
         {
             attackTimers[enemy] = Time.time;
         }
 
-        // Establecer el temporizador de ataque global al inicio del juego
         attackCd = Time.time;
     }
 }

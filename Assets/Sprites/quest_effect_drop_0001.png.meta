@@ -1,0 +1,1117 @@
+fileFormatVersion: 2
+guid: 390cefdd6d093294c9f91941f6356dcf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 872
+        width: 163
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79bc8de2d2b589c4a86af0181332beb1
+      internalID: -918572091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 872
+        width: 163
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f53559771d2b741b36967e2c05e654
+      internalID: 1071060287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_2
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 865
+        width: 166
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30f004bc21402064a87cdc18b2872341
+      internalID: -611759276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_3
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 897
+        width: 87
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda8ddb32c68099459640cb74effe57d
+      internalID: -1569003432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_4
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 970
+        width: 88
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9cde832ffacf445b92039960cd9f90
+      internalID: 46010239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_5
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 897
+        width: 87
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bded43c27be35bf41926c5545a49e0be
+      internalID: 697800928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_6
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 906
+        width: 88
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47a21c13c68e0a48b827a19fa86b028
+      internalID: 1528610688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_7
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 683
+        width: 198
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bdd3b976985304bb68b5a4035a8e41
+      internalID: 2089503880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_8
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 683
+        width: 203
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593781510aed8a248ae3014cbf860653
+      internalID: 1129205418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_9
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 705
+        width: 165
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d24b52dd4d74aad438922538364cd2b4
+      internalID: 251471953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_10
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 769
+        width: 87
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459ebca94e34ff343af7ac91b57e4040
+      internalID: -883911300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_11
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 842
+        width: 88
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e736e4c48389447bf63f01750e6b90
+      internalID: -1419476043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_12
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 769
+        width: 87
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6b7177c28640a499ed596d2a012cb6
+      internalID: -331105809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_13
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 778
+        width: 88
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70a70c2008648143b5cd03252ea6528
+      internalID: 383109638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_14
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 641
+        width: 87
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6dd4fe9889f14408b9d92aff387754
+      internalID: 1516077190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_15
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 714
+        width: 89
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742f8795106bd3c4db4336bd6b74687b
+      internalID: -2025975019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_16
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 641
+        width: 87
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62ea870fdee48042a962a1b8de73f48
+      internalID: 270107379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_17
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 491
+        width: 152
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78b2e6335b80ef45be6dca55e2dc4be
+      internalID: -1267954736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_18
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 491
+        width: 152
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23181c2a49d84434bbda63e763adbb13
+      internalID: 868669615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_19
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 620
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4065032e43ead6040b3834fb59895389
+      internalID: -1341930139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_20
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 590
+        width: 78
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc1f9380f274f84eaf502d9802d7b25
+      internalID: 741194295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_21
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 586
+        width: 41
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee9cff497788ab47a1d3a0b91f5833d
+      internalID: -1391135162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_22
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 513
+        width: 87
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69b494b7d3cb094d9ace4c28c026ff4
+      internalID: -121235255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_23
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 578
+        width: 95
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f2c48bc730df344bf0fade7ef17b96
+      internalID: 1886372204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_24
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 513
+        width: 87
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e7dcabafeaede488acb8f88a0ca697
+      internalID: 1559971280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_25
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 577
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23f53771eee9654d87fe9eb5f177d9d
+      internalID: 231911604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_26
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 577
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b889958b4445246a6e1b97f5f26db0
+      internalID: 2056186266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_27
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 579
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268f1961b04ee2f4fab0957be82572e6
+      internalID: -1995649948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_28
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 578
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0f5629a18484b4cb5f11be6631ca38
+      internalID: -1501319757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d5774564fc7dc49b3d4665b714f7c0
+      internalID: 1759456314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 516
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf727a1c076f2d49938e6c67219c732
+      internalID: -1159773829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 514
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c97ddad962d2b42a97b686689f639d
+      internalID: 1486926882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_32
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 513
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1534259f7c1f1474aa0bff944538ca96
+      internalID: -1029893748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_33
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 449
+        width: 95
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2acb540301ae91344a77b488ce3cf042
+      internalID: -2041926878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_34
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 303
+        width: 182
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145573e0dd4b1384eab2fe808e7d9ae8
+      internalID: -2025148786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_35
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 298
+        width: 190
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c19d3035c2be5643880e357e80b54d3
+      internalID: -1709585521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_36
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 343
+        width: 138
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bddf8c0e12c404b9625345bc44cf07
+      internalID: 107314466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_37
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 385
+        width: 87
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463b76873807fdf4882a328ffa433037
+      internalID: -1786208664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_38
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 321
+        width: 95
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83ec3c979b922345bc4b691c8f3512d
+      internalID: 155457147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_39
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 385
+        width: 87
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ae992d1719ea7419f39354fc7767d9
+      internalID: -887937684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_40
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 132
+        width: 182
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73411250126eacc4fb08d1363449d276
+      internalID: -589638150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_41
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 193
+        width: 95
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50811e6ca635a6a4caded46ad99c5f24
+      internalID: -356590918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_42
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 269
+        width: 76
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43639cbaac041414fbc1abc1635cfe62
+      internalID: 1835863715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_43
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 141
+        width: 76
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbd98d5bf6539541b9d01ae078339f3
+      internalID: 1477428099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_drop_0001_44
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 26
+        width: 76
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caaad9e9f0f2f844b80a317b3cc7bf43
+      internalID: -1003197521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      quest_effect_drop_0001_0: -918572091
+      quest_effect_drop_0001_1: 1071060287
+      quest_effect_drop_0001_10: -883911300
+      quest_effect_drop_0001_11: -1419476043
+      quest_effect_drop_0001_12: -331105809
+      quest_effect_drop_0001_13: 383109638
+      quest_effect_drop_0001_14: 1516077190
+      quest_effect_drop_0001_15: -2025975019
+      quest_effect_drop_0001_16: 270107379
+      quest_effect_drop_0001_17: -1267954736
+      quest_effect_drop_0001_18: 868669615
+      quest_effect_drop_0001_19: -1341930139
+      quest_effect_drop_0001_2: -611759276
+      quest_effect_drop_0001_20: 741194295
+      quest_effect_drop_0001_21: -1391135162
+      quest_effect_drop_0001_22: -121235255
+      quest_effect_drop_0001_23: 1886372204
+      quest_effect_drop_0001_24: 1559971280
+      quest_effect_drop_0001_25: 231911604
+      quest_effect_drop_0001_26: 2056186266
+      quest_effect_drop_0001_27: -1995649948
+      quest_effect_drop_0001_28: -1501319757
+      quest_effect_drop_0001_29: 1759456314
+      quest_effect_drop_0001_3: -1569003432
+      quest_effect_drop_0001_30: -1159773829
+      quest_effect_drop_0001_31: 1486926882
+      quest_effect_drop_0001_32: -1029893748
+      quest_effect_drop_0001_33: -2041926878
+      quest_effect_drop_0001_34: -2025148786
+      quest_effect_drop_0001_35: -1709585521
+      quest_effect_drop_0001_36: 107314466
+      quest_effect_drop_0001_37: -1786208664
+      quest_effect_drop_0001_38: 155457147
+      quest_effect_drop_0001_39: -887937684
+      quest_effect_drop_0001_4: 46010239
+      quest_effect_drop_0001_40: -589638150
+      quest_effect_drop_0001_41: -356590918
+      quest_effect_drop_0001_42: 1835863715
+      quest_effect_drop_0001_43: 1477428099
+      quest_effect_drop_0001_44: -1003197521
+      quest_effect_drop_0001_5: 697800928
+      quest_effect_drop_0001_6: 1528610688
+      quest_effect_drop_0001_7: 2089503880
+      quest_effect_drop_0001_8: 1129205418
+      quest_effect_drop_0001_9: 251471953
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

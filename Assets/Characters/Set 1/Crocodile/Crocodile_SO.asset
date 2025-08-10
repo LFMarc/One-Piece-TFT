@@ -20,7 +20,7 @@ MonoBehaviour:
   abilityCharge: 0
   abilityThreshold: 0
   characterPrefab: {fileID: 8178422064247816357, guid: 81482dc0fec45be429bd8a54169036b5, type: 3}
-  spellPrefab: {fileID: 0}
+  spellPrefab: {fileID: 3197769684172288957, guid: 520be6203c3ce4149b295ac511441151, type: 3}
   spellSound: {fileID: 0}
   attackSounds:
   - {fileID: 8300000, guid: 194870b0958429b4f806207a48b8dacc, type: 3}

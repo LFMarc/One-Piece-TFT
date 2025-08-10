@@ -1,0 +1,2437 @@
+fileFormatVersion: 2
+guid: abf8c868e586715459592eb04a3d318c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_0
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 942
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964a6970b55d3ac418d63a9519d9aad8
+      internalID: -872051622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 940
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa430dbcb977f4b4aacde08e6ab20fc2
+      internalID: 1109037733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 941
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2045a890d64eea4ea46b45aaa86bd1e
+      internalID: 406967443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 940
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643054dbadaa4994a8032f8802289445
+      internalID: 1729013846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_4
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 940
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0269c8ce71513db44a1f73167c6272eb
+      internalID: -34734364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_5
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 941
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5aa2bed6c0a8a047b5b422a5d60ec7c
+      internalID: 778728222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_6
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 929
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3a1f6066441c0469b6f1abb8d5eb91
+      internalID: -522305681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_7
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 938
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907fec2958da92c43856a01ce91894ef
+      internalID: 93802377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_8
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 938
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7e05edfb574ad4482b60cf5043a819
+      internalID: 1748003817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_9
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 943
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e82ed85c92bbe4d80c14812b4051d5
+      internalID: -227651614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_10
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 945
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee2cdbc86df7ff4bbc024848170dbf8
+      internalID: 784689660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_11
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 942
+        width: 4
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0312e32763246d94c8b4a3c714834c0a
+      internalID: -1343563429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_12
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 945
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb9cb08929ecae4bb5beba64429661a
+      internalID: 439056293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_13
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 944
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad28340bc75551f4ea3e718f4213ef5c
+      internalID: 4580348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_14
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 945
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cb7380b3263834d9cf5e810683ee86
+      internalID: 881190879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_15
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 944
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d096d3dd8f428841bb20c0cee34d4bd
+      internalID: 1798915947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 224
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898c9506d4af6dc45beafed69928e658
+      internalID: 2061782509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_17
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 875
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e8f0e725ee63045a158317d0ec4001
+      internalID: -380533594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_18
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 868
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81cfbe13eb39e444ba9c5c2c3623ccb
+      internalID: -1890054974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_19
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 880
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bede9c985dd8f4789c0ea3a5380244
+      internalID: -1134806855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_20
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 881
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfe0957b3ac6be479621478b21a1d93
+      internalID: -647675382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_21
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 875
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abc9fd5ad8d63d48b23e3427974bbb2
+      internalID: -2031583610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_22
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 878
+        width: 85
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd3562c3114e194a805aa35f93de205
+      internalID: -667017016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_23
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 880
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5970136bd8b59f43aae776762f4d3cf
+      internalID: 198428718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_24
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 878
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a59ed1408c8499498293077488c1f3c
+      internalID: -1114243695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_25
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 878
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751b207226205c94fbd91dc0e55b81f0
+      internalID: -813715428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_26
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 883
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea72c1e90e6c864c820a145bdd09f6f
+      internalID: 1782952559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_27
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 883
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e67ca81649eba741a4b585b54e7f2a7
+      internalID: 1585215545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 814
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043e8ce48db090f4690bfdeebdfb3f8a
+      internalID: 1423224973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_29
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 815
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec8224618543bc4c952e9eae84a433b
+      internalID: -1943096653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_30
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 814
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd0734cead03fa49b304373f3a97060
+      internalID: -55204393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_31
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 815
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86549414f5077d549ad7cbcfef6e6817
+      internalID: 755635684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_32
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 822
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f672fd95493ed2642a15f489f887909d
+      internalID: -2082860966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_33
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 815
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3179ef55a9173a845a711d27eb80eeba
+      internalID: 494248834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_34
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 815
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d814059e813c5704391fb3c630cf57a4
+      internalID: -885252075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_35
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 836
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1df9b201fbcd84cb27c1ddfc8dfe0e
+      internalID: -312363811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_36
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 836
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c72192aabc89a47801219d6badd3ab
+      internalID: 796059671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_37
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 770
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11445944ffb4c7145ad2bb09bf584a65
+      internalID: -514255256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_38
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 709
+        width: 95
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029a9b4f61e262744a07f6e3c2748f7b
+      internalID: 1246273534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_39
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 771
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da0b4b1ea128014cba0f1ce9b4a4598
+      internalID: -86082267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_40
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 771
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb35617103752894a95bc051fc8730f0
+      internalID: -1129267247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_41
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 771
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f18a12f30bf39a4485cf26328e85a05
+      internalID: -1752069091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_42
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 785
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464ea416aced64a42b29925032a48aab
+      internalID: -924672185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_43
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 785
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b56357eb2f1234bb0e95fe9f80d283
+      internalID: -723791593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_44
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 709
+        width: 47
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdf0876adb2f9f4db0263c82b190c33
+      internalID: -1419314948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_45
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 789
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6955265e80072884dbedb0534314a135
+      internalID: -1800315789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_46
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 787
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb691abac2dd95c4a8fc926160240cc0
+      internalID: 1738469187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_47
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 717
+        width: 34
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd7dcca88f254043945c111197f6ad5
+      internalID: 974329604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_48
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 320
+        width: 128
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2e3bfd40af734418af42116d658dab
+      internalID: 1950168490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_49
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 753
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c706dff619e784f45868df4cea15c27c
+      internalID: 1127677602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_50
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 779
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ffa9d82f41b854590c514b8708d025
+      internalID: 2046610221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_51
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 755
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e018241860db743874789e9e7de75b
+      internalID: 994436201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_52
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 740
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1535ff2f14ec1c4189eb24478a538e6
+      internalID: 1794594383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_53
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 705
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e66291c99f86e479e48c067d2441bb
+      internalID: 688331292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_54
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 724
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87ea005fb78edb409d0c49ebbb1faa1
+      internalID: 1304328016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_55
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 722
+        width: 51
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da0239e005e81f4fa800494ba4e0dea
+      internalID: 1647793662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_56
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 757
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ee695c245ab8a41b9bf773ed5227a9
+      internalID: -1845816679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 641
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c671a106e5f524dbd9e673ebca9dcd
+      internalID: 2038601293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_58
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 652
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb5dfff865ee8c45b3c4e604ffcb57f
+      internalID: -1009729652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_59
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 643
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3eb106fee0fdf42b903c93f3974c83
+      internalID: 1625439218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_60
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 222
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a28d4be8a84d44d9bcba65ccd1e5df
+      internalID: 1432800294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_61
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 613
+        width: 95
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7434d58fe925964bbf9089594582909
+      internalID: -340224705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_62
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 582
+        width: 293
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d016a7e7b9f75f849aa378f87f7a5e0d
+      internalID: 1872436016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_63
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 538
+        width: 104
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fc9b8c16f4a284ab69a544466767d2
+      internalID: -1212444552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_64
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 461
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3f565432074014caef9501428d0e91
+      internalID: -1223109753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_65
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 517
+        width: 95
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a7e9780d66e14459d13391b4629feb
+      internalID: -560969224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_66
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 423
+        width: 310
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce06897cd3d13ae418df57ce34d237c8
+      internalID: -453482721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_67
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 385
+        width: 95
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a96c34dc5014db4192eed02a9a40bd6
+      internalID: 539493286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_68
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 468
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53160ecd07b88524eaf342887577debd
+      internalID: 68260816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_69
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 276
+        width: 155
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b709dda192cf104cb581229bdd69df9
+      internalID: -1708240654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_70
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 276
+        width: 77
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed94e4a21c47a104c88ff446ce8f4e73
+      internalID: 39517063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_71
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 395
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb2c89cc24672341b457d6b3178f0f1
+      internalID: 334992490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_72
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 362
+        width: 112
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd91206f8764fa74b9d548051043bcfb
+      internalID: -145455918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_73
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 307
+        width: 89
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e5d30f3c412a5408d2d692e6ca5dd2
+      internalID: -1127214547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_74
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 308
+        width: 80
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825d21bb5e3836c4b8c1440dbcc3afc4
+      internalID: -52915503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_75
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 91
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04605d51b562b3b4ebade7876ddee959
+      internalID: 1190076859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_76
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 195
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390cb111193027b45ac243e39c2e8ab7
+      internalID: 2141365062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_77
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 201
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d4b0116af6ee84693b4c556b5ad024
+      internalID: 2130310947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_78
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 206
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606b3f2ce18cca24c833a0c5d764c0a5
+      internalID: 1828768657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_79
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 212
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d9a7cdbe7b1c04c8ad69a858e640f5
+      internalID: 2053037487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_80
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 215
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7496c0b0f37af2347b053ad4197d3ad0
+      internalID: 687419158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_81
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 215
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bf8b8068dc72d4a96e5b39bee11fcd
+      internalID: -1366146701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_82
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 208
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c12d925223572c4480a55e0cf1d3ffe
+      internalID: -2078511846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_83
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 198
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2030f7cbbf8c8a459f25b0cd0594aec
+      internalID: -2073764963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_84
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 182
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4361745f77b03ff41aec8941072cfcd2
+      internalID: 637867246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_85
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 185
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb806f601eb5334ca27cdc636dab3a2
+      internalID: -849867724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_86
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 191
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706536973dc82254d91b8ec161ccc41e
+      internalID: 539104487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_87
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 175
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f1462392ebfac48b02059e24c285be
+      internalID: 741540364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_88
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 161
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0b7e5a9106b5f4caddc3cd6283ff68
+      internalID: -952505174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_89
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 171
+        width: 30
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87503c90663ede4da4ef0d88c89f262
+      internalID: -291247579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_90
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 167
+        width: 26
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5921f3ca6c25248b99ee6c80c21fb6
+      internalID: 1780081562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_91
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 164
+        width: 30
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126adb18bdb63614083cf972a0634a0d
+      internalID: -1046092820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_92
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 153
+        width: 30
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd67f2bdbc8ac241965b8d854328e80
+      internalID: 297881581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_93
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 130
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c064da3c92a1244e9e52da887e2e0ce
+      internalID: 332612006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_94
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 153
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7598345a52b4868438047c331ff2e903
+      internalID: -1166167808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_95
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 115
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a41960e65199945a2c30c33e1eb90e
+      internalID: -197393023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_96
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 111
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7802576651ee231479667f72b55e3717
+      internalID: 864254518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_97
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 96
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992d015a2891c7146b8ea6413fcfd980
+      internalID: 587670330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_98
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 83
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d412722d05bf4a44c8de6a824208d30f
+      internalID: -533104783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_99
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 98
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb14196ef54937b4386d13402dcc44f7
+      internalID: 172730785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_100
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 75
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2a69624c8521646b7472ec5d7df573
+      internalID: 764942401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_101
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 72
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6e9ef5529eefa4e849a9e4cb63dfdc
+      internalID: 585482245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_102
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 70
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892038f80f7c0e347b08d7fe0a0af3fa
+      internalID: 930825651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_103
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 74
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39830e1a6a07e234ca29e5d950c3c4a4
+      internalID: 869445112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quest_effect_team_skill_0002_104
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 77
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eaa1fd3a0a95734ea1056b753602d16
+      internalID: -2051279737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      quest_effect_team_skill_0002_0: -872051622
+      quest_effect_team_skill_0002_1: 1109037733
+      quest_effect_team_skill_0002_10: 784689660
+      quest_effect_team_skill_0002_100: 764942401
+      quest_effect_team_skill_0002_101: 585482245
+      quest_effect_team_skill_0002_102: 930825651
+      quest_effect_team_skill_0002_103: 869445112
+      quest_effect_team_skill_0002_104: -2051279737
+      quest_effect_team_skill_0002_11: -1343563429
+      quest_effect_team_skill_0002_12: 439056293
+      quest_effect_team_skill_0002_13: 4580348
+      quest_effect_team_skill_0002_14: 881190879
+      quest_effect_team_skill_0002_15: 1798915947
+      quest_effect_team_skill_0002_16: 2061782509
+      quest_effect_team_skill_0002_17: -380533594
+      quest_effect_team_skill_0002_18: -1890054974
+      quest_effect_team_skill_0002_19: -1134806855
+      quest_effect_team_skill_0002_2: 406967443
+      quest_effect_team_skill_0002_20: -647675382
+      quest_effect_team_skill_0002_21: -2031583610
+      quest_effect_team_skill_0002_22: -667017016
+      quest_effect_team_skill_0002_23: 198428718
+      quest_effect_team_skill_0002_24: -1114243695
+      quest_effect_team_skill_0002_25: -813715428
+      quest_effect_team_skill_0002_26: 1782952559
+      quest_effect_team_skill_0002_27: 1585215545
+      quest_effect_team_skill_0002_28: 1423224973
+      quest_effect_team_skill_0002_29: -1943096653
+      quest_effect_team_skill_0002_3: 1729013846
+      quest_effect_team_skill_0002_30: -55204393
+      quest_effect_team_skill_0002_31: 755635684
+      quest_effect_team_skill_0002_32: -2082860966
+      quest_effect_team_skill_0002_33: 494248834
+      quest_effect_team_skill_0002_34: -885252075
+      quest_effect_team_skill_0002_35: -312363811
+      quest_effect_team_skill_0002_36: 796059671
+      quest_effect_team_skill_0002_37: -514255256
+      quest_effect_team_skill_0002_38: 1246273534
+      quest_effect_team_skill_0002_39: -86082267
+      quest_effect_team_skill_0002_4: -34734364
+      quest_effect_team_skill_0002_40: -1129267247
+      quest_effect_team_skill_0002_41: -1752069091
+      quest_effect_team_skill_0002_42: -924672185
+      quest_effect_team_skill_0002_43: -723791593
+      quest_effect_team_skill_0002_44: -1419314948
+      quest_effect_team_skill_0002_45: -1800315789
+      quest_effect_team_skill_0002_46: 1738469187
+      quest_effect_team_skill_0002_47: 974329604
+      quest_effect_team_skill_0002_48: 1950168490
+      quest_effect_team_skill_0002_49: 1127677602
+      quest_effect_team_skill_0002_5: 778728222
+      quest_effect_team_skill_0002_50: 2046610221
+      quest_effect_team_skill_0002_51: 994436201
+      quest_effect_team_skill_0002_52: 1794594383
+      quest_effect_team_skill_0002_53: 688331292
+      quest_effect_team_skill_0002_54: 1304328016
+      quest_effect_team_skill_0002_55: 1647793662
+      quest_effect_team_skill_0002_56: -1845816679
+      quest_effect_team_skill_0002_57: 2038601293
+      quest_effect_team_skill_0002_58: -1009729652
+      quest_effect_team_skill_0002_59: 1625439218
+      quest_effect_team_skill_0002_6: -522305681
+      quest_effect_team_skill_0002_60: 1432800294
+      quest_effect_team_skill_0002_61: -340224705
+      quest_effect_team_skill_0002_62: 1872436016
+      quest_effect_team_skill_0002_63: -1212444552
+      quest_effect_team_skill_0002_64: -1223109753
+      quest_effect_team_skill_0002_65: -560969224
+      quest_effect_team_skill_0002_66: -453482721
+      quest_effect_team_skill_0002_67: 539493286
+      quest_effect_team_skill_0002_68: 68260816
+      quest_effect_team_skill_0002_69: -1708240654
+      quest_effect_team_skill_0002_7: 93802377
+      quest_effect_team_skill_0002_70: 39517063
+      quest_effect_team_skill_0002_71: 334992490
+      quest_effect_team_skill_0002_72: -145455918
+      quest_effect_team_skill_0002_73: -1127214547
+      quest_effect_team_skill_0002_74: -52915503
+      quest_effect_team_skill_0002_75: 1190076859
+      quest_effect_team_skill_0002_76: 2141365062
+      quest_effect_team_skill_0002_77: 2130310947
+      quest_effect_team_skill_0002_78: 1828768657
+      quest_effect_team_skill_0002_79: 2053037487
+      quest_effect_team_skill_0002_8: 1748003817
+      quest_effect_team_skill_0002_80: 687419158
+      quest_effect_team_skill_0002_81: -1366146701
+      quest_effect_team_skill_0002_82: -2078511846
+      quest_effect_team_skill_0002_83: -2073764963
+      quest_effect_team_skill_0002_84: 637867246
+      quest_effect_team_skill_0002_85: -849867724
+      quest_effect_team_skill_0002_86: 539104487
+      quest_effect_team_skill_0002_87: 741540364
+      quest_effect_team_skill_0002_88: -952505174
+      quest_effect_team_skill_0002_89: -291247579
+      quest_effect_team_skill_0002_9: -227651614
+      quest_effect_team_skill_0002_90: 1780081562
+      quest_effect_team_skill_0002_91: -1046092820
+      quest_effect_team_skill_0002_92: 297881581
+      quest_effect_team_skill_0002_93: 332612006
+      quest_effect_team_skill_0002_94: -1166167808
+      quest_effect_team_skill_0002_95: -197393023
+      quest_effect_team_skill_0002_96: 864254518
+      quest_effect_team_skill_0002_97: 587670330
+      quest_effect_team_skill_0002_98: -533104783
+      quest_effect_team_skill_0002_99: 172730785
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -15,6 +15,9 @@ public class CharacterList : ScriptableObject
     public float abilityCharge;
     public float abilityThreshold;
 
+    [Header("Damage Graph")]
+    public Sprite damageGraphIcon;
+
     [Header("Prefabs and SE")]
     public GameObject characterPrefab;
 
