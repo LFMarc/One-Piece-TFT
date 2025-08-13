@@ -16,9 +16,10 @@ MonoBehaviour:
   characterIcon: {fileID: 21300000, guid: 4e2345d6eb5bfe44e8cc316ee486d217, type: 3}
   maxHp: 1400
   dmg: 160
-  attackSpeed: 1.2
+  attackSpeed: 2.2
   abilityCharge: 0
   abilityThreshold: 0
+  damageGraphIcon: {fileID: 21300000, guid: 60c7e245df3d0334fb550413c41084f4, type: 3}
   characterPrefab: {fileID: 5117148085854822669, guid: 3406d99390ba65d46aaa67c7de5179f9, type: 3}
   spellPrefab: {fileID: 0}
   spellSound: {fileID: 0}

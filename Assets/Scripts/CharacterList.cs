@@ -10,6 +10,7 @@ public class CharacterList : ScriptableObject
     public string characterName;
     public Sprite characterIcon;
     public float maxHp;
+    public float defense;
     public float dmg;
     public float attackSpeed;
     public float abilityCharge;

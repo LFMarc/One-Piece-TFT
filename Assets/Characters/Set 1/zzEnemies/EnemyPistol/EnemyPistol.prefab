@@ -204,8 +204,11 @@ MonoBehaviour:
   hp: 200
   maxHp: 200
   defense: 10
+  damage: 100
+  attackSpeed: 3
   charAnim: {fileID: 6503606429250522799}
   healthBar: {fileID: 3772065207479758788}
+  attackTarget: {fileID: 0}
 --- !u!95 &6503606429250522799
 Animator:
   serializedVersion: 5

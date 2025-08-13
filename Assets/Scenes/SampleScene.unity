@@ -1442,9 +1442,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   round: 1
   enemyPrefabs:
+  - {fileID: 653249978085695568, guid: 1cc65e44730c15a41b6e1b8cdfa2b6ed, type: 3}
   - {fileID: 5536822326642051361, guid: a3026583c4e630d48bcb60c359a7d2ad, type: 3}
-  - {fileID: 5536822326642051361, guid: a3026583c4e630d48bcb60c359a7d2ad, type: 3}
-  - {fileID: 5536822326642051361, guid: a3026583c4e630d48bcb60c359a7d2ad, type: 3}
+  - {fileID: 653249978085695568, guid: 1cc65e44730c15a41b6e1b8cdfa2b6ed, type: 3}
   enemySpawnPoints:
   - {fileID: 292373307}
   - {fileID: 533020248}
@@ -1758,7 +1758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7435152708723745675, guid: 4deffa1a5d14f9f4e9596e49531a2a4b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8268747887915177238, guid: 4deffa1a5d14f9f4e9596e49531a2a4b, type: 3}
       propertyPath: m_Pivot.x

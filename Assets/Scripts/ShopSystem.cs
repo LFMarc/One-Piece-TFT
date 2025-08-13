@@ -98,6 +98,10 @@ public class ShopSystem : MonoBehaviour
                 // Registrar en el medidor de daño
                 if (DamageMeterManager.Instance != null)
                     DamageMeterManager.Instance.RegisterCharacter(newChar, character);
+
+                // Avisar al GameManager que se ha comprado un personaje
+                if (GameManager.Instance != null)
+                    GameManager.Instance.OnCharacterBought();
             }
             else
             {
@@ -109,6 +113,7 @@ public class ShopSystem : MonoBehaviour
             Debug.LogError("El prefab del personaje no está asignado.");
         }
     }
+
 
     /// Busca el primer spawn libre
     private int GetFirstFreeSpawnIndex()

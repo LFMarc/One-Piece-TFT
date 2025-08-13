@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
     private bool isCombatPhase = false;
     private bool roundInProgress = false;
 
+    private bool hasBoughtCharacter = false; // <- nuevo
+
     void Awake()
     {
         if (Instance == null)
@@ -30,14 +32,13 @@ public class GameManager : MonoBehaviour
         EnterPreparationPhase();
     }
 
-    /// Entra en la fase de preparación: muestra tienda y botón
     public void EnterPreparationPhase()
     {
         Debug.Log($"[Preparación] Ronda {round}");
         isCombatPhase = false;
         roundInProgress = false;
+        hasBoughtCharacter = false; // <- al inicio de preparación se resetea
 
-        //resetear valores
         if (DamageMeterManager.Instance != null)
             DamageMeterManager.Instance.ResetDamageValues();
 
@@ -52,14 +53,23 @@ public class GameManager : MonoBehaviour
             startRoundButton.gameObject.SetActive(true);
             startRoundButton.onClick.RemoveAllListeners();
             startRoundButton.onClick.AddListener(StartCombatPhase);
+
+            // Primera ronda ? botón desactivado hasta comprar personaje
+            startRoundButton.interactable = round > 1;
         }
     }
 
+    // Este método lo llamará ShopSystem cuando se compre un personaje
+    public void OnCharacterBought()
+    {
+        hasBoughtCharacter = true;
+        if (startRoundButton != null)
+            startRoundButton.interactable = true;
+    }
 
-    /// Entra en la fase de combate: oculta tienda y botón
     public void StartCombatPhase()
     {
-        if (roundInProgress) return; // Evita llamadas dobles
+        if (roundInProgress) return;
         roundInProgress = true;
 
         Debug.Log($"[Combate] Ronda {round}");
@@ -68,20 +78,15 @@ public class GameManager : MonoBehaviour
         if (startRoundButton != null)
             startRoundButton.gameObject.SetActive(false);
 
-        // Ocultar la tienda (desactivar panel)
         if (ShopSystem.Instance != null)
-        {
             ShopSystem.Instance.shopPanel.gameObject.SetActive(false);
-        }
 
         SpawnEnemies();
     }
 
-    /// Instancia los enemigos
     void SpawnEnemies()
     {
         enemiesRemaining = enemySpawnPoints.Length;
-
         for (int i = 0; i < enemySpawnPoints.Length; i++)
         {
             GameObject prefab = enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
@@ -89,13 +94,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    /// Se llama cuando un enemigo muere
     public void EnemyDefeated()
     {
         if (!isCombatPhase) return;
 
         enemiesRemaining--;
-
         if (enemiesRemaining <= 0)
         {
             isCombatPhase = false;
@@ -105,7 +108,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    /// Delay entre combate y preparación
     IEnumerator NextPreparationPhaseDelay()
     {
         yield return new WaitForSeconds(2f);

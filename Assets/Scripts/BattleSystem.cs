@@ -1,11 +1,15 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BattleSystem : MonoBehaviour
 {
     public CharacterList character;
     public List<EnemyScript> enemies;
+
+    [Header("UI")]
+    public Image healthBar;
 
     public Animator charAnim;
     public float movSpeed;
@@ -13,16 +17,20 @@ public class BattleSystem : MonoBehaviour
 
     private Dictionary<EnemyScript, float> attackTimers;
     private float attackCd;
+    private float currentHp;
 
     private int enemyIndexNow = 0;
-    private AudioSource audioSource;  // Referencia al AudioSource del personaje
-    private int attackSoundIndex = 0; // �ndice para alternar entre los sonidos de ataque
+    private AudioSource audioSource;
+    private int attackSoundIndex = 0;
 
     void Start()
     {
         charAnim = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
         startingPosition = transform.position;
+
+        currentHp = character.maxHp;
+        UpdateHealthBar();
 
         attackTimers = new Dictionary<EnemyScript, float>();
         enemies = new List<EnemyScript>();
@@ -31,16 +39,14 @@ public class BattleSystem : MonoBehaviour
 
     void Update()
     {
-        if (character.maxHp <= 0)
+        if (currentHp <= 0)
         {
-            Destroy(gameObject);
+            Die();
             return;
         }
 
         if (!GameManager.Instance || !GameManager.Instance.IsCombatPhase())
-        {
-            return; // Solo atacar en fase de combate
-        }
+            return;
 
         CleanEnemyList();
         if (enemies.Count == 0)
@@ -58,10 +64,13 @@ public class BattleSystem : MonoBehaviour
                 charAnim.SetTrigger("Attack");
                 StartCoroutine(MoverHaciaEnemigo(enemyTarget.transform.position));
 
-                enemyTarget.RecieveDamage(character.dmg);
+                enemyTarget.ReceiveDamage(character.dmg);
 
-                if (DamageMeterManager.Instance != null)
+                // ✅ Solo reporta daño si es Player
+                if (DamageMeterManager.Instance != null && CompareTag("Player"))
+                {
                     DamageMeterManager.Instance.ReportDamage(transform.root.gameObject, character.dmg);
+                }
 
                 attackCd = Time.time;
             }
@@ -70,6 +79,31 @@ public class BattleSystem : MonoBehaviour
                 BuscarSiguienteEnemigoVivo();
             }
         }
+    }
+
+    public void ReceiveDamage(float dmg)
+    {
+        float finalDamage = Mathf.Max(dmg - character.defense, 0);
+        currentHp -= finalDamage;
+        UpdateHealthBar();
+
+        if (currentHp <= 0)
+        {
+            currentHp = 0;
+            Die();
+        }
+    }
+
+    private void UpdateHealthBar()
+    {
+        if (healthBar != null)
+            healthBar.fillAmount = currentHp / character.maxHp;
+    }
+
+    private void Die()
+    {
+        charAnim.SetTrigger("Die");
+        Destroy(gameObject, 1f);
     }
 
     void PlayAttackSound()
@@ -85,14 +119,11 @@ public class BattleSystem : MonoBehaviour
     {
         enemyIndexNow++;
         if (enemyIndexNow >= enemies.Count)
-        {
             enemyIndexNow = 0;
-        }
     }
 
     IEnumerator MoverHaciaEnemigo(Vector3 enemyPosition)
     {
-        // Si la velocidad es 0, dispara desde lejos sin moverse
         if (movSpeed <= 0f)
         {
             PlayAttackSound();
@@ -124,6 +155,16 @@ public class BattleSystem : MonoBehaviour
         EnemyScript[] targetsFound = FindObjectsOfType<EnemyScript>();
         enemies.Clear();
         enemies.AddRange(targetsFound);
+
+        // Randomizar objetivo
+        for (int i = 0; i < enemies.Count; i++)
+        {
+            EnemyScript temp = enemies[i];
+            int randomIndex = Random.Range(i, enemies.Count);
+            enemies[i] = enemies[randomIndex];
+            enemies[randomIndex] = temp;
+        }
+
         ResetAttackTimers();
         enemyIndexNow = 0;
     }
@@ -140,7 +181,6 @@ public class BattleSystem : MonoBehaviour
         {
             attackTimers[enemy] = Time.time;
         }
-
         attackCd = Time.time;
     }
 }
