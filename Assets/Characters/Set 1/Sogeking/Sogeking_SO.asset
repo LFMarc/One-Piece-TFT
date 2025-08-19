@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Sogeking
   characterIcon: {fileID: 21300000, guid: 4737abbaf1a227d42a4774299ce3508c, type: 3}
-  maxHp: 1100
+  maxHp: 4400
+  defense: 0
   dmg: 120
-  attackSpeed: 1.7
+  attackSpeed: 1.088
   abilityCharge: 0
   abilityThreshold: 0
   damageGraphIcon: {fileID: 21300000, guid: 51fb5338a83eebd4698f3009ce580fe4, type: 3}

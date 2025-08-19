@@ -407,6 +407,12 @@ MonoBehaviour:
   - {fileID: 1534238692}
   - {fileID: 1484172790}
   - {fileID: 1352627867}
+  upgradeSprites:
+  - {fileID: -1216088900, guid: 12f98b45e4e5dfe41bb16403c80b4396, type: 3}
+  - {fileID: 329841019, guid: 12f98b45e4e5dfe41bb16403c80b4396, type: 3}
+  - {fileID: 879701032, guid: 12f98b45e4e5dfe41bb16403c80b4396, type: 3}
+  - {fileID: -1686079820, guid: 12f98b45e4e5dfe41bb16403c80b4396, type: 3}
+  - {fileID: 1040048602, guid: 12f98b45e4e5dfe41bb16403c80b4396, type: 3}
 --- !u!1 &388078068
 GameObject:
   m_ObjectHideFlags: 0

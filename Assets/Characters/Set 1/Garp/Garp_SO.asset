@@ -15,8 +15,9 @@ MonoBehaviour:
   characterName: Garp
   characterIcon: {fileID: 21300000, guid: bf0cbdcde69ecf74e9066cc96a6820e2, type: 3}
   maxHp: 1700
-  dmg: 150
-  attackSpeed: 2
+  defense: 0
+  dmg: 300
+  attackSpeed: 4
   abilityCharge: 0
   abilityThreshold: 0
   damageGraphIcon: {fileID: 21300000, guid: db149ca12e8654a45a732ba95efffbec, type: 3}

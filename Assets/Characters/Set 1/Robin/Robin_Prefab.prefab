@@ -124,7 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: {fileID: 11400000, guid: d3f15bf3803fce945b3335cdc5bef584, type: 2}
   enemies: []
-  healthBar: {fileID: 1290861060286002743}
+  healthBar: {fileID: 6078234230739356856}
   charAnim: {fileID: 8459476842563943881}
   movSpeed: 0
 --- !u!82 &5619708458156327732
@@ -541,9 +541,14 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 517e00b0e5d286d42a37bd6a31dc0808, type: 3}
---- !u!114 &1290861060286002743 stripped
+--- !u!224 &2902691190565838565 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4517931621832631976, guid: 517e00b0e5d286d42a37bd6a31dc0808, type: 3}
+  m_PrefabInstance: {fileID: 1655781624006293581}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6078234230739356856 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 509060512558386810, guid: 517e00b0e5d286d42a37bd6a31dc0808, type: 3}
+  m_CorrespondingSourceObject: {fileID: 4801045326093186293, guid: 517e00b0e5d286d42a37bd6a31dc0808, type: 3}
   m_PrefabInstance: {fileID: 1655781624006293581}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
@@ -552,8 +557,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!224 &2902691190565838565 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 4517931621832631976, guid: 517e00b0e5d286d42a37bd6a31dc0808, type: 3}
-  m_PrefabInstance: {fileID: 1655781624006293581}
-  m_PrefabAsset: {fileID: 0}

@@ -8,6 +8,8 @@ public class DamageMeterManager : MonoBehaviour
     public DamageSlot[] damageSlots;
     private Dictionary<GameObject, DamageSlot> assignedSlots = new Dictionary<GameObject, DamageSlot>();
 
+    public Sprite[] upgradeSprites; // array con sprites del 0 al 5
+
     private void Awake()
     {
         if (Instance == null) Instance = this;
@@ -26,12 +28,18 @@ public class DamageMeterManager : MonoBehaviour
             {
                 assignedSlots[character] = slot;
                 slot.SetupSlot(characterData.damageGraphIcon);
+
+                //Nivel 1
+                if (upgradeSprites.Length > 0)
+                    slot.UpdateUpgradeSprite(upgradeSprites[0]);
+
                 return;
             }
         }
 
         Debug.LogWarning("No hay slots libres para el medidor de daño.");
     }
+
 
     public void ReportDamage(GameObject character, float damage)
     {
@@ -67,4 +75,21 @@ public class DamageMeterManager : MonoBehaviour
         }
         assignedSlots.Clear();
     }
+
+    public void UpdateUpgradeIcon(GameObject character, int upgradeLevel)
+    {
+        if (assignedSlots.TryGetValue(character, out DamageSlot slot))
+        {
+            // Validamos que no se pase del array
+            if (upgradeLevel >= 0 && upgradeLevel < upgradeSprites.Length)
+            {
+                slot.UpdateUpgradeSprite(upgradeSprites[upgradeLevel]);
+            }
+        }
+        else
+        {
+            Debug.LogWarning($"No se encontró slot asignado para {character.name}");
+        }
+    }
+
 }

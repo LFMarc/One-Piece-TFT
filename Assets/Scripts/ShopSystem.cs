@@ -80,39 +80,58 @@ public class ShopSystem : MonoBehaviour
     public void BuyCharacter(CharacterList character, GameObject shopItem)
     {
         Debug.Log($"Comprado: {character.characterName}");
-
         Destroy(shopItem);
 
-        if (character.characterPrefab != null)
+        // Buscar si ya existe en la escena
+        BattleSystem existingChar = null;
+        foreach (var bs in FindObjectsOfType<BattleSystem>())
         {
-            int freeIndex = GetFirstFreeSpawnIndex();
-            if (freeIndex != -1)
+            if (bs.character == character)
             {
-                Transform selectedSpawnPoint = spawnPoints[freeIndex];
-
-                GameObject newChar = Instantiate(character.characterPrefab, selectedSpawnPoint.position, Quaternion.identity);
-                Debug.Log($"Instanciado {character.characterName} en el spawn point {freeIndex + 1}.");
-
-                spawnOccupied[freeIndex] = true; // Lo marcamos como ocupado
-
-                // Registrar en el medidor de daño
-                if (DamageMeterManager.Instance != null)
-                    DamageMeterManager.Instance.RegisterCharacter(newChar, character);
-
-                // Avisar al GameManager que se ha comprado un personaje
-                if (GameManager.Instance != null)
-                    GameManager.Instance.OnCharacterBought();
+                existingChar = bs;
+                break;
             }
+        }
+
+        if (existingChar != null)
+        {
+            if (existingChar.TryUpgrade())
+                Debug.Log($"{character.characterName} mejorado a nivel {existingChar.upgradeLevel}!");
             else
-            {
-                Debug.LogError("No hay spawn points disponibles.");
-            }
+                Debug.Log($"{character.characterName} ya alcanzó el máximo de mejoras (5).");
+
+            if (GameManager.Instance != null)
+                GameManager.Instance.OnCharacterBought();
+
+            return;
+        }
+
+
+        // Si no existe, instanciar SOLO si hay hueco
+        int freeIndex = GetFirstFreeSpawnIndex();
+        if (freeIndex != -1)
+        {
+            Transform selectedSpawnPoint = spawnPoints[freeIndex];
+
+            GameObject newChar = Instantiate(character.characterPrefab, selectedSpawnPoint.position, Quaternion.identity);
+            Debug.Log($"Instanciado {character.characterName} en el spawn point {freeIndex + 1}.");
+
+            spawnOccupied[freeIndex] = true; // Lo marcamos como ocupado
+
+            // Registrar en el medidor de daño
+            if (DamageMeterManager.Instance != null)
+                DamageMeterManager.Instance.RegisterCharacter(newChar, character);
+
+            // Avisar al GameManager
+            if (GameManager.Instance != null)
+                GameManager.Instance.OnCharacterBought();
         }
         else
         {
-            Debug.LogError("El prefab del personaje no está asignado.");
+            Debug.Log("No hay spawn points libres. Solo puedes comprar personajes repetidos para mejorarlos.");
         }
     }
+
 
 
     /// Busca el primer spawn libre

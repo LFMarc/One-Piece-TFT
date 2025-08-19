@@ -23,6 +23,8 @@ public class BattleSystem : MonoBehaviour
     private AudioSource audioSource;
     private int attackSoundIndex = 0;
 
+    public int upgradeLevel = 0;
+
     void Start()
     {
         charAnim = GetComponent<Animator>();
@@ -66,7 +68,7 @@ public class BattleSystem : MonoBehaviour
 
                 enemyTarget.ReceiveDamage(character.dmg);
 
-                // ✅ Solo reporta daño si es Player
+                // Solo reporta daño si es Player
                 if (DamageMeterManager.Instance != null && CompareTag("Player"))
                 {
                     DamageMeterManager.Instance.ReportDamage(transform.root.gameObject, character.dmg);
@@ -93,6 +95,13 @@ public class BattleSystem : MonoBehaviour
             Die();
         }
     }
+
+    public void HealToFull()
+    {
+        currentHp = character.maxHp;
+        UpdateHealthBar();
+    }
+
 
     private void UpdateHealthBar()
     {
@@ -183,4 +192,26 @@ public class BattleSystem : MonoBehaviour
         }
         attackCd = Time.time;
     }
+
+    public bool TryUpgrade()
+    {
+        if (upgradeLevel >= 5)
+            return false;
+
+        upgradeLevel++;
+
+        character.dmg *= 2f;
+        character.maxHp *= 2f;
+        character.attackSpeed *= 0.8f;
+        HealToFull();
+
+        // Actualizar DamageMeterSlot
+        if (DamageMeterManager.Instance != null)
+        {
+            DamageMeterManager.Instance.UpdateUpgradeIcon(transform.root.gameObject, upgradeLevel);
+        }
+
+        return true;
+    }
+
 }

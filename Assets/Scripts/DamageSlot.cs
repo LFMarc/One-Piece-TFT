@@ -7,6 +7,9 @@ public class DamageSlot : MonoBehaviour
     public Image iconImage;
     public TextMeshProUGUI damageText;
 
+    [Header("Upgrade UI")]
+    public Image upgradeIcon; // Nueva imagen para mostrar el nivel de mejora
+
     private float totalDamage;
 
     public void SetupSlot(Sprite icon)
@@ -14,6 +17,9 @@ public class DamageSlot : MonoBehaviour
         iconImage.sprite = icon;
         damageText.text = "0";
         totalDamage = 0;
+
+        if (upgradeIcon != null)
+            upgradeIcon.enabled = false; // Oculto al inicio
     }
 
     public void AddDamage(float amount)
@@ -27,4 +33,14 @@ public class DamageSlot : MonoBehaviour
         totalDamage = 0;
         damageText.text = "0";
     }
+
+    public void UpdateUpgradeSprite(Sprite newSprite)
+    {
+        if (upgradeIcon != null)
+        {
+            upgradeIcon.sprite = newSprite;
+            upgradeIcon.enabled = true;
+        }
+    }
+
 }
