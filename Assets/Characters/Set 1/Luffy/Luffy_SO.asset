@@ -14,9 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Luffy
   characterIcon: {fileID: 21300000, guid: 3ba23f35670bf8a4da5f57883c047f84, type: 3}
-  maxHp: 1600
-  dmg: 140
-  attackSpeed: 2.1
+  maxHp: 585
+  defense: 0
+  dmg: 120
+  attackSpeed: 2.9
   abilityCharge: 0
   abilityThreshold: 0
   damageGraphIcon: {fileID: 21300000, guid: 2f1627ea61e35b74ea28b343a30b1bd3, type: 3}

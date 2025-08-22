@@ -61,7 +61,7 @@ public class EnemyScript : MonoBehaviour
         }
     }
 
-    private void UpdateHealthBar()
+    public void UpdateHealthBar()
     {
         hp = Mathf.Clamp(hp, 0, maxHp);
         if (healthBar != null)

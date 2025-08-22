@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Mr2
   characterIcon: {fileID: 21300000, guid: eb0b515fef0dfaf48a094b25d61de965, type: 3}
-  maxHp: 1300
+  maxHp: 600
+  defense: 0
   dmg: 130
-  attackSpeed: 1.9
+  attackSpeed: 2.5
   abilityCharge: 0
   abilityThreshold: 0
-  damageGraphIcon: {fileID: 0}
+  damageGraphIcon: {fileID: 21300000, guid: cdaf65f44c499ad42a07c7d593d5cefa, type: 3}
   characterPrefab: {fileID: 5370202936393453965, guid: 688853024d0edc04d9515230ba7164f3, type: 3}
   spellPrefab: {fileID: 0}
   spellSound: {fileID: 0}

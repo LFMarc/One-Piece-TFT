@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Crocodile
   characterIcon: {fileID: 21300000, guid: 18b721eb919842f41b9ab9d12f32cc4f, type: 3}
-  maxHp: 1800
-  dmg: 120
-  attackSpeed: 2.2
+  maxHp: 1190
+  defense: 0
+  dmg: 236
+  attackSpeed: 1.6
   abilityCharge: 0
   abilityThreshold: 0
-  damageGraphIcon: {fileID: 0}
+  damageGraphIcon: {fileID: 21300000, guid: 06ff8f41ff8b5574a9e55784b0c0e6ef, type: 3}
   characterPrefab: {fileID: 8178422064247816357, guid: 81482dc0fec45be429bd8a54169036b5, type: 3}
   spellPrefab: {fileID: 3197769684172288957, guid: 520be6203c3ce4149b295ac511441151, type: 3}
   spellSound: {fileID: 0}

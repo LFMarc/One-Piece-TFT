@@ -14,12 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Robin
   characterIcon: {fileID: 21300000, guid: 73f7eb8cab39e274dbdbba7cc3d8a1d5, type: 3}
-  maxHp: 1300
-  dmg: 140
-  attackSpeed: 2.2
+  maxHp: 916
+  defense: 0
+  dmg: 336
+  attackSpeed: 1.7600001
   abilityCharge: 0
   abilityThreshold: 0
-  damageGraphIcon: {fileID: 21300000, guid: 05f5ccbe43531004c915620a2153478b, type: 3}
+  damageGraphIcon: {fileID: 21300000, guid: 9c39cc77a53fd664aad70c9816d09fb5, type: 3}
   characterPrefab: {fileID: 1240085621002534210, guid: 845b4487aa02e634c95f9ead7e2ec0ed, type: 3}
   spellPrefab: {fileID: 0}
   spellSound: {fileID: 0}

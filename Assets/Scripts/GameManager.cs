@@ -87,12 +87,28 @@ public class GameManager : MonoBehaviour
     void SpawnEnemies()
     {
         enemiesRemaining = enemySpawnPoints.Length;
+
         for (int i = 0; i < enemySpawnPoints.Length; i++)
         {
             GameObject prefab = enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
-            Instantiate(prefab, enemySpawnPoints[i].position, Quaternion.identity);
+            GameObject enemyObj = Instantiate(prefab, enemySpawnPoints[i].position, Quaternion.identity);
+
+            // Aplicar escalado por ronda
+            EnemyScript enemy = enemyObj.GetComponent<EnemyScript>();
+            if (enemy != null)
+            {
+                float hpMultiplier = Mathf.Pow(1.5f, round - 1);   // Vida se multiplica 1.5x cada ronda
+                float dmgMultiplier = Mathf.Pow(1.25f, round - 1); // Daño se multiplica 1.25x cada ronda
+
+                enemy.maxHp *= hpMultiplier;
+                enemy.hp = enemy.maxHp; // curar al full al inicio
+                enemy.damage *= dmgMultiplier;
+
+                enemy.UpdateHealthBar(); //update UI
+            }
         }
     }
+
 
     public void EnemyDefeated()
     {
