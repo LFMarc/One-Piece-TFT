@@ -79,6 +79,13 @@ public class ShopSystem : MonoBehaviour
     /// Compra un personaje y lo coloca en la primera posición libre
     public void BuyCharacter(CharacterList character, GameObject shopItem)
     {
+        // Verificar si hay dinero
+        if (EconomyManager.Instance == null || !EconomyManager.Instance.SpendGoldOnCharacter())
+        {
+            Debug.Log("No tienes suficiente oro para comprar este personaje.");
+            return;
+        }
+
         Debug.Log($"Comprado: {character.characterName}");
         Destroy(shopItem);
 
@@ -106,7 +113,6 @@ public class ShopSystem : MonoBehaviour
             return;
         }
 
-
         // Si no existe, instanciar SOLO si hay hueco
         int freeIndex = GetFirstFreeSpawnIndex();
         if (freeIndex != -1)
@@ -131,6 +137,7 @@ public class ShopSystem : MonoBehaviour
             Debug.Log("No hay spawn points libres. Solo puedes comprar personajes repetidos para mejorarlos.");
         }
     }
+
 
 
 

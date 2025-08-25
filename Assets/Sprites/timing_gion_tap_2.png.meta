@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,1960 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: timing_gion_tap_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 969
+        width: 576
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d106a15716717b48a55c86c0f44904f
+      internalID: -695447010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_1
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 993
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7bb2c34649ffa4b9caae03be21a4a9
+      internalID: 753089731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_2
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 993
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86bfc1ce5daf8b43bf5bd8aef8a7442
+      internalID: 709702849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_3
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 899
+        width: 102
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877f4e7b1118b1442b7a72d7b9f20062
+      internalID: -759598208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_4
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 871
+        width: 100
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29dc9b2c796f780459c01fc727c241c6
+      internalID: 1801201966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_5
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 904
+        width: 125
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ec40718f5887545b2cd97a7c51373d
+      internalID: -191172665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 911
+        width: 60
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d1e08675570e34f83d9041c4d44e78
+      internalID: -1148122031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 913
+        width: 124
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44917808ad7e16443b7294aa44040722
+      internalID: 303168997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 913
+        width: 112
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bfabcce9c4a784995b45a0666e5f79
+      internalID: 642051437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_9
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 913
+        width: 90
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c383a4bb9a790d345bdae676847330f6
+      internalID: -340119284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_10
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 933
+        width: 57
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9098f06d0020c6b4287033556a96a852
+      internalID: -424536079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_11
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 937
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1c50d89beefa04492bac52881057f1
+      internalID: 1943957020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_12
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 930
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e53c2850c964de49bd4bf47fa880edc
+      internalID: -1525649230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_13
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 906
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc2f3ad93189f949982e89b2db9a246
+      internalID: 592957979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_14
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 865
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ee3bf81cf8c7b429ac7e612b4d1fcc
+      internalID: -1240201305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 751
+        width: 162
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1df8cc3a1aab65429d75cad6fe44caa
+      internalID: 1926527565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_16
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 801
+        width: 129
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b99ff04c2175040b149108b6df37b4
+      internalID: 1224048075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_17
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 810
+        width: 89
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a0e66cd55265147b413bff80245569
+      internalID: -724081310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_18
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 815
+        width: 81
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25780bd486e363649bf3eef43ecf35c8
+      internalID: -1113645596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_19
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 679
+        width: 177
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507e3f3f2adf16345b42742f505cb8d2
+      internalID: 1507119247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_20
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 686
+        width: 165
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c8b1189724c934f937f868332d9330
+      internalID: 660881359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_21
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 831
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c4c90b6a2fae3448f6d0c005b5eab2
+      internalID: -1250582090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 491
+        width: 287
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2acdbb781ea35d428406fb6893ff500
+      internalID: -580039300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_23
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 491
+        width: 229
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106c57902aab0554bb8cdda5f1fc15b1
+      internalID: -743945625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_24
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 645
+        width: 86
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c25f62121cd0b4bb79c9419bbf19ee
+      internalID: -1185026306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_25
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 575
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a20235eab88d4a4ba07171beedf9451
+      internalID: 757697734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_26
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 607
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6e39f7af8d5e748b659e332af64bd0
+      internalID: -1421522072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 479
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d8f0876b0b22c42ba731fbb9c5ba86
+      internalID: 477257495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_28
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 487
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ba4e2e5c24ce945a934440d492fabc
+      internalID: 1564491741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_29
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 490
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3c4dd93794dc04c9852a49923c237b
+      internalID: 806760389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_30
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 490
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e44cc05e70301a468940cef305444b4
+      internalID: 545468439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_31
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 487
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fb2815a2c56f44dba560b9f51b2e23
+      internalID: 1363773747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_32
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 484
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419d8969fcf352b40ac4b318affa5eef
+      internalID: -625847591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_33
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 479
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7249f5b2dce844347beb170a4459dc69
+      internalID: 1779711793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_34
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 488
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1aeb3822459df54a91ccd8d97011445
+      internalID: 956817314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_35
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 490
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a534ef4c31a4c3d49921c64925e1678f
+      internalID: -603196970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_36
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 490
+        width: 19
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea9131350117d748bc0c9ed5250e6a4
+      internalID: -407253355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_37
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 488
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51b13ec12b9bae4b8d6aee9a53b18bc
+      internalID: 785633706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_38
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 484
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfed7732eb6ea94e99add506618c64a
+      internalID: 1335657650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_39
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 484
+        width: 48
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c1f22c4cdc7384d91d280773f8c205
+      internalID: -459707823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_40
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 488
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d547a0c49be2c46abdd4d4ba68c440
+      internalID: 501111557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_41
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 490
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c33daffd032f942bafa8c861d2725e
+      internalID: 1048467660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_42
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 491
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4080c7040781345b383e39f030fdfd
+      internalID: -2030625995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_43
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 488
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17569ebe82eb52043811e11bed812516
+      internalID: -1723560396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_44
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 484
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f53f49d719ba4548a84085e4e172535
+      internalID: -1089801411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_45
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 479
+        width: 106
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348010f3298c69e47bd38ae35f57ab7a
+      internalID: -687797765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_46
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 488
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0700b324ed1e940b3f0b30276c0e85
+      internalID: -1222416922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_47
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 490
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d874532bfde92fd4196e1779c4a0888f
+      internalID: -853108369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_48
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 490
+        width: 19
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625714db43a4dbb4fb1e8ce919c81f8c
+      internalID: 456122072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_49
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 488
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ca58a1421ccd4408d81fae9c711651
+      internalID: 1673363430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_50
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 484
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a26bdd4bd51f448834b93a2637707b
+      internalID: -958777560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_51
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 454
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b0f313c34366a4e9e485a1a7490870
+      internalID: 2077324688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_52
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 435
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e7d0360c8ec21479e99a46559a6e03
+      internalID: -597274693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_53
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 417
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335d5eac9ef67c6459199adaadd9a58c
+      internalID: 1564620429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_54
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 422
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a4ee804a32dd6499bc754bd54d0bd1
+      internalID: -2135015193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_55
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 435
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b65340bb748b64c977e6f28f3e6eee
+      internalID: -1484204215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_56
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 439
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6aae824bcbc6c24b8d32d5cb3a826a0
+      internalID: 1341314365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_57
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 454
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9f6925266cb5c4eaaa805a0d88cf12
+      internalID: 2101437647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_58
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 435
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b39c1d9e07b5b4985900ef6cd4f9a4
+      internalID: -1957656648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_59
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 417
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90eb911af5f7ad74ab855a2c5c092d5f
+      internalID: 826029309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_60
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 422
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b3e91ab986e374a8362ed3c1ddcc1a
+      internalID: 1017238611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_61
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 435
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d7f4ff20a61634c803e0f0bb3b0e1b
+      internalID: 2141089457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_62
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 457
+        width: 49
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567cebd688bc59042815392f91c3357b
+      internalID: -554530382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_63
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 439
+        width: 106
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928e996ddfc21804a8b6447e9feb2ba4
+      internalID: -60222173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_64
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 418
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f753d646b3c331e4dbe9f38a547d31aa
+      internalID: 1469747028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_65
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 423
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131b00c3c7821134ea0a1bbb9bf6a5dc
+      internalID: -494433410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_66
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 435
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f7d2ffbc8938643b3ef68876f84243
+      internalID: -1292771106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_67
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 457
+        width: 48
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a869dcf8de4b349b43a878bcee7392
+      internalID: 1134741807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_68
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 454
+        width: 56
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975f1503bb4a2f54698e6acd4c49ca75
+      internalID: 1456531988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_69
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 435
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3030868be1f436b42a3f9f38bb78e29e
+      internalID: 1742716064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_70
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 417
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a49fd96236cd14d9fb1db742165d4d
+      internalID: 995689833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_71
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 422
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff21b1ee41efca74bb483598200ed6e3
+      internalID: 577454594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_72
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 435
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3651b7941f88114c88aff49c3064b4d
+      internalID: -2115740067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_73
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 457
+        width: 53
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a4f086b401fa84ca049e393193774a
+      internalID: 1717094684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_74
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 160
+        width: 137
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf8812c1d6135444afb926d97a502f4
+      internalID: 1780039248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_75
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 161
+        width: 60
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dec799067dbf484b9080b183ec00868
+      internalID: -2128371308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_76
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 283
+        width: 23
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d1f8fd1120c674898c3d7b2691f96a
+      internalID: 887090660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_77
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d5bd85aab4c6a469d63967efce86aa
+      internalID: 1380558932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_78
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 230
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0eb66b8fc636f428825bc709288ddd
+      internalID: -767557661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_79
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 112
+        width: 183
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92528398be611d640902a35cf08830c4
+      internalID: -31317391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_80
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 121
+        width: 115
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e5c7d50758547458f904665e54ef23
+      internalID: 1513846416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_81
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 120
+        width: 133
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ddbb2f7791b8d4f92b4c4214e970d3
+      internalID: 1941820579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_82
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 125
+        width: 79
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65838446e0710cb4c8bf6955907677f0
+      internalID: -363522587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_83
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 11
+        width: 151
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6d22c3ccd2ca74281effa095a6fa67
+      internalID: -437826521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_84
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 8
+        width: 136
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed96d6f5c4539544814d50c87419635
+      internalID: -1419524685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_85
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2
+        width: 56
+        height: 208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb43a40d5e3fd7840a3de64ac52f07b5
+      internalID: 1428960301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_86
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2
+        width: 64
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf773d9bb1302e4e85f0ef8372fb100
+      internalID: -348982131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_87
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 48
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c213b75bfa5e64eb4da217389cb761
+      internalID: 1001563423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_88
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 48
+        width: 88
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf982e3dbf38ef46999d2cfda260eaa
+      internalID: -634464978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_89
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 49
+        width: 80
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84748e99d4a034b4eacc095e49ec6acc
+      internalID: -579400105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_90
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 62
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc892c52ce0615546b924b4487a72a6e
+      internalID: 362568937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_91
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 639
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1200971605e55dd469c275bdde5f67bc
+      internalID: 1349377390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timing_gion_tap_2_92
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 703
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475857187463adb4899bc5c7c99e3675
+      internalID: -604676145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +2072,100 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      timing_gion_tap_2_0: -695447010
+      timing_gion_tap_2_1: 753089731
+      timing_gion_tap_2_10: -424536079
+      timing_gion_tap_2_11: 1943957020
+      timing_gion_tap_2_12: -1525649230
+      timing_gion_tap_2_13: 592957979
+      timing_gion_tap_2_14: -1240201305
+      timing_gion_tap_2_15: 1926527565
+      timing_gion_tap_2_16: 1224048075
+      timing_gion_tap_2_17: -724081310
+      timing_gion_tap_2_18: -1113645596
+      timing_gion_tap_2_19: 1507119247
+      timing_gion_tap_2_2: 709702849
+      timing_gion_tap_2_20: 660881359
+      timing_gion_tap_2_21: -1250582090
+      timing_gion_tap_2_22: -580039300
+      timing_gion_tap_2_23: -743945625
+      timing_gion_tap_2_24: -1185026306
+      timing_gion_tap_2_25: 757697734
+      timing_gion_tap_2_26: -1421522072
+      timing_gion_tap_2_27: 477257495
+      timing_gion_tap_2_28: 1564491741
+      timing_gion_tap_2_29: 806760389
+      timing_gion_tap_2_3: -759598208
+      timing_gion_tap_2_30: 545468439
+      timing_gion_tap_2_31: 1363773747
+      timing_gion_tap_2_32: -625847591
+      timing_gion_tap_2_33: 1779711793
+      timing_gion_tap_2_34: 956817314
+      timing_gion_tap_2_35: -603196970
+      timing_gion_tap_2_36: -407253355
+      timing_gion_tap_2_37: 785633706
+      timing_gion_tap_2_38: 1335657650
+      timing_gion_tap_2_39: -459707823
+      timing_gion_tap_2_4: 1801201966
+      timing_gion_tap_2_40: 501111557
+      timing_gion_tap_2_41: 1048467660
+      timing_gion_tap_2_42: -2030625995
+      timing_gion_tap_2_43: -1723560396
+      timing_gion_tap_2_44: -1089801411
+      timing_gion_tap_2_45: -687797765
+      timing_gion_tap_2_46: -1222416922
+      timing_gion_tap_2_47: -853108369
+      timing_gion_tap_2_48: 456122072
+      timing_gion_tap_2_49: 1673363430
+      timing_gion_tap_2_5: -191172665
+      timing_gion_tap_2_50: -958777560
+      timing_gion_tap_2_51: 2077324688
+      timing_gion_tap_2_52: -597274693
+      timing_gion_tap_2_53: 1564620429
+      timing_gion_tap_2_54: -2135015193
+      timing_gion_tap_2_55: -1484204215
+      timing_gion_tap_2_56: 1341314365
+      timing_gion_tap_2_57: 2101437647
+      timing_gion_tap_2_58: -1957656648
+      timing_gion_tap_2_59: 826029309
+      timing_gion_tap_2_6: -1148122031
+      timing_gion_tap_2_60: 1017238611
+      timing_gion_tap_2_61: 2141089457
+      timing_gion_tap_2_62: -554530382
+      timing_gion_tap_2_63: -60222173
+      timing_gion_tap_2_64: 1469747028
+      timing_gion_tap_2_65: -494433410
+      timing_gion_tap_2_66: -1292771106
+      timing_gion_tap_2_67: 1134741807
+      timing_gion_tap_2_68: 1456531988
+      timing_gion_tap_2_69: 1742716064
+      timing_gion_tap_2_7: 303168997
+      timing_gion_tap_2_70: 995689833
+      timing_gion_tap_2_71: 577454594
+      timing_gion_tap_2_72: -2115740067
+      timing_gion_tap_2_73: 1717094684
+      timing_gion_tap_2_74: 1780039248
+      timing_gion_tap_2_75: -2128371308
+      timing_gion_tap_2_76: 887090660
+      timing_gion_tap_2_77: 1380558932
+      timing_gion_tap_2_78: -767557661
+      timing_gion_tap_2_79: -31317391
+      timing_gion_tap_2_8: 642051437
+      timing_gion_tap_2_80: 1513846416
+      timing_gion_tap_2_81: 1941820579
+      timing_gion_tap_2_82: -363522587
+      timing_gion_tap_2_83: -437826521
+      timing_gion_tap_2_84: -1419524685
+      timing_gion_tap_2_85: 1428960301
+      timing_gion_tap_2_86: -348982131
+      timing_gion_tap_2_87: 1001563423
+      timing_gion_tap_2_88: -634464978
+      timing_gion_tap_2_89: -579400105
+      timing_gion_tap_2_9: -340119284
+      timing_gion_tap_2_90: 362568937
+      timing_gion_tap_2_91: 1349377390
+      timing_gion_tap_2_92: -604676145
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

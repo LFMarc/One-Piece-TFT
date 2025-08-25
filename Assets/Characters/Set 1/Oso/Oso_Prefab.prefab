@@ -229,6 +229,12 @@ MonoBehaviour:
   healthBar: {fileID: 7703114394297868671}
   charAnim: {fileID: 5469653598549567457}
   movSpeed: 15
+  upgradeLevel: 0
+  healEffectPrefab: {fileID: 428465849062198632, guid: d1a9b94ccee895b489f1c778d203267f, type: 3}
+  upgradeEffectPrefab: {fileID: 428465849062198632, guid: d0a7ccf25c8da9d47b539607267240f1, type: 3}
+  characterCanvas: {fileID: 2379777864883155925}
+  healSound: {fileID: 8300000, guid: 61add274748d5154eb9a7b7985c2e5c9, type: 3}
+  upgradeSound: {fileID: 8300000, guid: 63f1eb22cf6168246a1a0d6ca77f6415, type: 3}
 --- !u!82 &8384657006671512104
 AudioSource:
   m_ObjectHideFlags: 0

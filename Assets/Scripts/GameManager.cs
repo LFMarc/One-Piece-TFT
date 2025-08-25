@@ -37,7 +37,7 @@ public class GameManager : MonoBehaviour
         Debug.Log($"[Preparación] Ronda {round}");
         isCombatPhase = false;
         roundInProgress = false;
-        hasBoughtCharacter = false; // <- al inicio de preparación se resetea
+        hasBoughtCharacter = false;
 
         if (DamageMeterManager.Instance != null)
             DamageMeterManager.Instance.ResetDamageValues();
@@ -54,10 +54,17 @@ public class GameManager : MonoBehaviour
             startRoundButton.onClick.RemoveAllListeners();
             startRoundButton.onClick.AddListener(StartCombatPhase);
 
-            // Primera ronda ? botón desactivado hasta comprar personaje
             startRoundButton.interactable = round > 1;
         }
+
+        // Recompensa de oro por ronda (excepto antes de la primera)
+        //if (EconomyManager.Instance != null && round > 1)
+        //{
+        //    EconomyManager.Instance.AddGold(EconomyManager.Instance.goldPerRound);
+        //    Debug.Log($"Ganaste {EconomyManager.Instance.goldPerRound} de oro. Total: {EconomyManager.Instance.currentGold}");
+        //}
     }
+
 
     // Este método lo llamará ShopSystem cuando se compre un personaje
     public void OnCharacterBought()
@@ -119,10 +126,29 @@ public class GameManager : MonoBehaviour
         {
             isCombatPhase = false;
             Debug.Log($"[Ronda Completada] Ronda {round}");
+
+            //Recompensa de oro al final de la ronda
+            if (EconomyManager.Instance != null)
+            {
+                EconomyManager.Instance.AddGold(EconomyManager.Instance.goldPerRound);
+                Debug.Log($"Ganaste {EconomyManager.Instance.goldPerRound} de oro. Total: {EconomyManager.Instance.currentGold}");
+            }
+
+            //Curar a todas las unidades del jugador
+            BattleSystem[] playerUnits = FindObjectsOfType<BattleSystem>();
+            foreach (BattleSystem unit in playerUnits)
+            {
+                if (unit != null)
+                {
+                    unit.HealAmount(500f); //Nueva función que añadimos en BattleSystem
+                }
+            }
+
             round++;
             StartCoroutine(NextPreparationPhaseDelay());
         }
     }
+
 
     IEnumerator NextPreparationPhaseDelay()
     {

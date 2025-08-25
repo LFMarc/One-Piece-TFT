@@ -25,6 +25,17 @@ public class BattleSystem : MonoBehaviour
 
     public int upgradeLevel = 0;
 
+    [Header("UI Effects")]
+    public GameObject healEffectPrefab;
+    public GameObject upgradeEffectPrefab;
+    public Canvas characterCanvas;
+
+    [Header("Audio Clips")]
+    public AudioClip healSound;
+    public AudioClip upgradeSound;
+
+
+
     void Start()
     {
         charAnim = GetComponent<Animator>();
@@ -98,8 +109,9 @@ public class BattleSystem : MonoBehaviour
 
     public void HealToFull()
     {
-        currentHp = character.maxHp;
-        UpdateHealthBar();
+        StartCoroutine(HealDelayed(character.maxHp - currentHp));
+        //PlayHealEffect();
+        //PlayHealSound();
     }
 
 
@@ -112,8 +124,15 @@ public class BattleSystem : MonoBehaviour
     private void Die()
     {
         charAnim.SetTrigger("Die");
+
+        if (DamageMeterManager.Instance != null)
+        {
+            DamageMeterManager.Instance.MarkAsDead(transform.root.gameObject);
+        }
+
         Destroy(gameObject, 1f);
     }
+
 
     void PlayAttackSound()
     {
@@ -205,13 +224,70 @@ public class BattleSystem : MonoBehaviour
         character.attackSpeed *= 0.8f;
         HealToFull();
 
-        // Actualizar DamageMeterSlot
+        PlayUpgradeEffect();
+        PlayUpgradeSound();
+
         if (DamageMeterManager.Instance != null)
         {
             DamageMeterManager.Instance.UpdateUpgradeIcon(transform.root.gameObject, upgradeLevel);
         }
 
         return true;
+    }
+
+
+    public void HealAmount(float amount)
+    {
+        StartCoroutine(HealDelayed(amount));
+        PlayHealEffect();
+        PlayHealSound();
+    }
+
+    private IEnumerator HealDelayed(float amount)
+    {
+        yield return new WaitForSeconds(0.8f);
+
+        currentHp = Mathf.Min(currentHp + amount, character.maxHp);
+        UpdateHealthBar();
+    }
+
+
+    private void PlayHealEffect()
+    {
+        if (healEffectPrefab != null && characterCanvas != null)
+        {
+            GameObject effect = Instantiate(healEffectPrefab, characterCanvas.transform);
+            effect.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
+
+            Destroy(effect, 1f);
+        }
+    }
+
+    private void PlayHealSound()
+    {
+        if (healSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(healSound);
+        }
+    }
+
+    private void PlayUpgradeEffect()
+    {
+        if (upgradeEffectPrefab != null && characterCanvas != null)
+        {
+            GameObject effect = Instantiate(upgradeEffectPrefab, characterCanvas.transform);
+            effect.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
+
+            Destroy(effect, 1f);
+        }
+    }
+
+    private void PlayUpgradeSound()
+    {
+        if (upgradeSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(upgradeSound);
+        }
     }
 
 }

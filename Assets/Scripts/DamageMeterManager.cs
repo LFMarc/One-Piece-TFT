@@ -92,4 +92,13 @@ public class DamageMeterManager : MonoBehaviour
         }
     }
 
+    public void MarkAsDead(GameObject character)
+    {
+        if (assignedSlots.TryGetValue(character, out DamageSlot slot))
+        {
+            slot.SetDead();
+        }
+    }
+
+
 }

@@ -201,10 +201,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6a95ab55424191449250de99ebe1484, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 200
-  maxHp: 200
+  hp: 100
+  maxHp: 100
   defense: 10
-  damage: 100
+  damage: 75
   attackSpeed: 3
   charAnim: {fileID: 6503606429250522799}
   healthBar: {fileID: 3772065207479758788}

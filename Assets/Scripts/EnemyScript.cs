@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -74,6 +75,11 @@ public class EnemyScript : MonoBehaviour
         {
             yield return new WaitForSeconds(attackSpeed);
 
+            if (attackTarget == null || attackTarget.GetComponent<BattleSystem>() == null)
+            {
+                BuscarNuevoTarget();
+            }
+
             if (attackTarget != null)
             {
                 charAnim.SetTrigger("Attack");
@@ -82,8 +88,38 @@ public class EnemyScript : MonoBehaviour
                 if (targetSystem != null)
                 {
                     targetSystem.ReceiveDamage(damage);
+
+                    // Si lo mató, forzar cambio de target
+                    if (targetSystem == null || targetSystem.Equals(null))
+                    {
+                        attackTarget = null;
+                    }
                 }
             }
+        }
+    }
+
+    void BuscarNuevoTarget()
+    {
+        BattleSystem[] posiblesTargets = FindObjectsOfType<BattleSystem>();
+
+        // Filtramos solo los vivos
+        List<BattleSystem> vivos = new List<BattleSystem>();
+        foreach (var bs in posiblesTargets)
+        {
+            if (bs != null && bs.gameObject != null) // está vivo
+            {
+                vivos.Add(bs);
+            }
+        }
+
+        if (vivos.Count > 0)
+        {
+            attackTarget = vivos[Random.Range(0, vivos.Count)].transform;
+        }
+        else
+        {
+            attackTarget = null;
         }
     }
 

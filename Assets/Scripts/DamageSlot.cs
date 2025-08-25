@@ -43,4 +43,19 @@ public class DamageSlot : MonoBehaviour
         }
     }
 
+    public void SetDead()
+    {
+        if (iconImage != null)
+        {
+            iconImage.color = Color.gray; // Aplica tinte gris
+        }
+
+        if (upgradeIcon != null)
+        {
+            upgradeIcon.color = Color.gray; // También el icono de upgrade
+        }
+
+        damageText.color = Color.gray; // El texto del daño también en gris
+    }
+
 }
